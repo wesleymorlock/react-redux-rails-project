@@ -17,7 +17,8 @@
   "description": "A test app.",
   "version": "1.0.0",
   "scripts": {
-    "postinstall": "webpack --config webpack.config.prod.js"
+    "postinstall": "webpack --config webpack.config.prod.js",
+    "start": "node server.js"
   },
   "license": "MIT",
   "devDependencies": {
