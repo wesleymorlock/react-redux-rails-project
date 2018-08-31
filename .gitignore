@@ -16,8 +16,6 @@
 !/log/.keep
 /tmp
 
-# Ignore application configuration
-config/database.yml
 # Ignore automatically generated files from OSX
 .DS_Store
 # Ignore node_modules
