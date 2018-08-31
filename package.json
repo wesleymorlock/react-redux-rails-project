@@ -1,11 +1,6 @@
 {
   "name": "test_app",
-  "version": "1.0.0",
-  "description": "== README",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "private": true,
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -19,13 +14,10 @@
     "redux-logger": "^3.0.6",
     "webpack": "^3.10.0"
   },
+  "description": "A test app.",
+  "version": "1.0.0",
   "scripts": {
     "postinstall": "webpack --config webpack.config.prod.js"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack-cli": "^3.1.0",
-    "webpack-command": "^0.4.1"
-  }
+  "license": "MIT"
 }
