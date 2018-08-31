@@ -19,5 +19,8 @@
   "scripts": {
     "postinstall": "webpack --config webpack.config.prod.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.12.0"
+  }
 }
